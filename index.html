@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Plus+Jakarta+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <img src="img/BOB.svg" alt="blue origami bird">  
-        <h1>Web Dev I</h1>  
+        <div class="container">
+            <div class="image">
+                <img src="img/BOB.svg" alt="blue origami bird">
+            </div>
+            <div class="text">
+                <h1>Web Dev I</h1>
+            </div>
+            <div id="address" class="text">
+                <p>Jovana Giesler</p>
+                <p>Bedminster, NJ</p>
+            </div>
+        </div>
     </header>
 
     <main>
         <section>
-            <img src="img/avatar.png" alt="my avatar">
-
-            <div>
-                <p>Jovana Giesler</p>
-                <p>Bedminster, NJ</p>
-            </div>
+            <img id="avatar" src="img/avatar.png" alt="my avatar">
         </section>
 
         <section>
-            <div>
+            <div class="text">
                 <p>I want to be...</p>
                 <p>living alone in a house</p>
                 <p>My major is...</p>
@@ -31,10 +46,14 @@
                 <p>My hobbies are...</p>
                 <p>reading and sewing</p>
             </div>
-            <!--bio-->
+
 
         </section>
 
     </main>
+    <footer>
+        ©2022 - Jovana Giesler
+    </footer>
 </body>
+
 </html>
