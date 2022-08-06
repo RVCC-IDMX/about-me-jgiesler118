@@ -12,11 +12,12 @@ h6 {
     font-family: "Cinzel Decorative", cursive;
 }
 
-.container, footer {
+.container,
+footer {
     display: flex;
     /*https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html */
     align-items: center;
-    background-color: #819098;
+    background-color: #C4CBCF;
     border: solid #465223;
 }
 
@@ -45,6 +46,38 @@ footer {
     color: #413C58;
 }
 
-p {
+p,
+li {
     font-size: 16px;
+    color: #413C58;
+    line-height: 1.5rem;
+}
+
+#hobbies ul li {
+    position: relative;
+    width: max-content;
+    border-bottom: #413C58 2px dotted;
+}
+
+.hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: max-content;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 110%;
+}
+
+.hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
 }
