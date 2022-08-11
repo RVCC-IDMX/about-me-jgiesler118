@@ -96,3 +96,7 @@ figcaption {
     margin:auto;
     padding: 0.5%;
 }
+
+article div p::first-letter {
+    font: 40px "Cinzel Decorative", cursive;
+}
