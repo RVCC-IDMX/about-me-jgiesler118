@@ -81,3 +81,18 @@ li {
     opacity: 1;
     visibility: visible;
 }
+
+figure {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+figcaption {
+    border: #413C58 1px dashed;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    padding: 0.5%;
+}
